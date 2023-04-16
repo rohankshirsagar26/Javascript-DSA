@@ -6,6 +6,18 @@ Big O Notation is a fundamental tool used to find out the time complexity of alg
 
 Big O Notation in Data Structure is used to express algorithmic complexity using algebraic terms. It describes the upper bound of an algorithm's runtime and calculates the time and amount of memory needed to execute the algorithm for an input value.
 
+It’s the way of describing the relationship between the input of a function as it grows and how that changes the runtime of that function, it allows us to talk formally about how the runtime of an algorithm grows as the input grows.
+
+![plot](./BigO.webp)
+
+#### Constant time O(1):
+
+An algorithm is said to run in constant time if it requires the same amount of time regardless of the input size.
+
+#### Linear time O(n):
+
+An algorithm is said to run in linear time if as the input (n) grows, the runtime grows relative to (n).
+
 # Mathematical Definition
 
 Consider the functions f(n) and g(n), where functions f and g are defined on an unbounded set of positive real numbers. g(n) is strictly positive for every large value of n.
